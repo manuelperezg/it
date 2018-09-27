@@ -19,6 +19,21 @@
 <meta content='Otorgamos soluciones para emisión y recepción de comprobantes fiscales digitales de uno hasta miles mensuales con posibilidades de integración con sus sistemas de cómputo actuales.' property='og:description'>
 <link href='index.html' hreflang='es' rel='alternate'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1' id='viewport' name='viewport'>
+
+	<script type="application/javascript">
+		var ip2 ="";
+  function getIP(json) {
+    // document.write("My public IP address is: ", );
+    ip2 = json.ip;
+    console.log(ip2);
+  var info = "http://api.ipinfodb.com/v3/ip-country/?key=bc3b615234c254be8de1fa341f7d24a9825e31632789188c890d674b98e7db40&ip="+ip2;
+    console.log(info);
+  }
+
+
+</script>
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 <!-- Favicon de titulo pendiente de cambiar -->
 <!-- <link href='https://d1fto35gcfffzn.cloudfront.net/images/favicon.ico' rel='shortcut icon' type='image/vnd.microsoft.icon'> -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -468,31 +483,32 @@
 					</div> -->
 				</div>
 				<div class='copyright'>
-					<!-- <div class='container relative'>
+					<div class='container relative'>
 						<hr>
 						&copy; Copyright
 						<script>
 							var d = new Date();
 							document.write(d.getFullYear());
 						</script>
-						Pivotal Software, Inc.
-						All Rights Reserved.
+						ITTEC Software, Inc.
+						Todos los Derechos Reservados
 						<span class='removeformobile'>&bullet;</span>
-						<a href='privacy-policy.html'>Privacy Policy</a>
+						<!-- <a href='privacy-policy.html'>Privacy Policy</a>
 						&bullet;
-						<a href='legal.html'>Terms of Use</a>
+						<a href='legal.html'>Terms of Use</a> -->
 						<style>#teconsent a:before{content:"•";margin: 0 3px;}</style>
 						<div id="teconsent" style='display:inline-block;'></div>
-						<script async="async" src="https://consent.trustarc.com/notice?domain=pivotal.com&c=teconsent&js=nj&text=true&pcookie" crossorigin=""></script>
+						
+						<!-- <script async="async" src="https://consent.trustarc.com/notice?domain=pivotal.com&c=teconsent&js=nj&text=true&pcookie" crossorigin=""></script> -->
+
 						<div data-language='' id='languages'>
 							<a class='language' data-language='cn' href='cn/index.html'>中文</a>
-							<a class='language' data-language='de' href='de/index.html'>Deutsche</a>
-							<a class='language' data-language='fr' href='fr/index.html'>Français</a>
 							<a class='language' data-language='jp' href='jp/index.html'>日本語</a>
-							<a class='language' data-language='kr' href='kr/index.html'>한국어</a>
-							<a class='active language' href='index.html'>English</a>
+							<a class='language' data-language='fr' href='fr/index.html'>Français</a>
+							<a class='language' data-language='kr' href='en/index.html'>English</a>
+							<a class='active language' href='index.html'>Español</a>
 						</div>
-					</div> -->
+					</div>
 				</div>
 			</div>
 
