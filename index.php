@@ -75,8 +75,8 @@ $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 						<h1 class='h1'>Tecnología Inteligente</h1>
 						<h2 class='h2 white antialiased'>
 							Desde corporativos multinacionales hasta pequeñas empresas, nuestras  
-							<a data-hover='soluciones' href='#'>soluciones</a> transforman la operación de las empresas.<br>
-							<a data-hover='Desarrollamos' href='#'>Desarrollamos</a> aplicaciones de IT con <a data-hover='visión' href='#'>visión</a>
+							<a data-hover='soluciones' href='#'>soluciones</a> transforman la operación de las empresas.
+							<a data-hover='Desarrollamos' href='#'>Desarrollamos</a> aplicaciones de TI con <a data-hover='visión' href='#'>visión</a>
 							<a data-hover=' de' href='#'> de</a>
 							<a data-hover=' futuro' href='#'> futuro</a>   que siempre funcionan
 							
