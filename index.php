@@ -50,7 +50,7 @@ $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1' id='viewport' name='viewport'>
 
 <!-- Favicon de titulo pendiente de cambiar -->
-<link href='img/icono_h.png' rel='shortcut icon' type='image/vnd.microsoft.icon'>
+<link href='img/icono_h2.png' rel='shortcut icon' type='image/vnd.microsoft.icon'>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
@@ -76,9 +76,10 @@ $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 						<h2 class='h2 white antialiased'>
 							Desde corporativos multinacionales hasta pequeñas empresas, nuestras  
 							<a data-hover='soluciones' href='#'>soluciones</a> transforman la operación de las empresas.
-							<a data-hover='Desarrollamos' href='#'>Desarrollamos</a> aplicaciones de TI con <a data-hover='visión' href='#'>visión</a>
-							<a data-hover=' de' href='#'> de</a>
-							<a data-hover=' futuro' href='#'> futuro</a>   que siempre funcionan
+							<a data-hover='Desarrollamos' href='#'>Desarrollamos</a> aplicaciones de TI con 
+							<a data-hover='visión&nbsp;de&nbsp;futuro' href='#'>visión de futuro</a>
+							<!-- <a data-hover=' de' href='#'> de</a> -->
+							<!-- <a data-hover=' futuro' href='#'> futuro</a>   que siempre funcionan -->
 							
 							<!-- <a data-hover='plataformas' href='platform.html'>plataformas</a> y  -->
 							<!-- <a data-hover='herramientas' href='products.html'>herramientas</a>  -->
