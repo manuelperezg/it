@@ -25,8 +25,6 @@ $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 // 	}
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang='ES'>
 <title>Tecnología inteligente | ITTEC</title>
