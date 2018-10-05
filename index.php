@@ -27,7 +27,7 @@ $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 
 <!DOCTYPE html>
 <html lang='ES'>
-<title>Tecnología inteligente | ITTEC</title>
+<title> ITTEC | Tecnología Inteligente</title>
 
 <link href='index.html' rel='canonical'>
 <meta content='ITTEC.' name='DC.Title' xml:lang='ES'>
@@ -48,7 +48,8 @@ $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1' id='viewport' name='viewport'>
 
 <!-- Favicon de titulo pendiente de cambiar -->
-<!-- <link href='https://d1fto35gcfffzn.cloudfront.net/images/favicon.ico' rel='shortcut icon' type='image/vnd.microsoft.icon'> -->
+<link href='img/icono_h2.png' rel='shortcut icon' type='image/vnd.microsoft.icon'>
+
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
 <link rel="stylesheet" media="all" href="css/principal.css" type="text/css" />
@@ -69,13 +70,18 @@ $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 			<div id='hero'>
 				<div class='container'>
 					<div class='text'>
-						<h1 class='h1'>Tecnología inteligente.</h1>
+						<h1 class='h1'>Tecnología Inteligente</h1>
 						<h2 class='h2 white antialiased'>
-							Somos líderes de software en el sector de la facturación electrónica tenemos 
-							<br>
-							<a data-hover='plataformas' href='platform.html'>plataformas</a> y 
-							<a data-hover='herramientas' href='products.html'>herramientas</a> 
-							que colaboran en el desarrollo tecnológico
+							Desde corporativos multinacionales hasta pequeñas empresas, nuestras  
+							<a data-hover='soluciones' href='#'>soluciones</a> transforman la operación de las empresas.
+							<a data-hover='Desarrollamos' href='#'>Desarrollamos</a> aplicaciones de TI con 
+							<a data-hover='visión&nbsp;de&nbsp;futuro' href='#'>visión de futuro</a>
+							<!-- <a data-hover=' de' href='#'> de</a> -->
+							<!-- <a data-hover=' futuro' href='#'> futuro</a>   que siempre funcionan -->
+							
+							<!-- <a data-hover='plataformas' href='platform.html'>plataformas</a> y  -->
+							<!-- <a data-hover='herramientas' href='products.html'>herramientas</a>  -->
+							<!-- que colaboran en el desarrollo tecnológico -->
 							<!-- <a data-hover='methodology' href='labs/methodology.html'>methodology</a> -->
 							<!-- help you deliver exceptional user experiences. -->
 						</h2>
